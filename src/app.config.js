@@ -8,26 +8,26 @@ export default {
   tabBar: {
     list: [
       {
-        // iconPath: "resource/latest.png",
-        // selectedIconPath: "resource/lastest_on.png",
+        iconPath: "./assest/rollerskate_start.png",
+        selectedIconPath: "./assest/rollerskate.png",
         pagePath: "pages/home/home",
         text: "首页",
       },
       {
-        // iconPath: "resource/latest.png",
-        // selectedIconPath: "resource/lastest_on.png",
+        iconPath: "./assest/gift_start.png",
+        selectedIconPath: "./assest/gift.png",
         pagePath: "pages/index/index",
         text: "随心",
       },
       {
-        // iconPath: "resource/latest.png",
-        // selectedIconPath: "resource/lastest_on.png",
+        iconPath: "./assest/motorbike_start.png",
+        selectedIconPath: "./assest/motorbike.png",
         pagePath: "pages/cate/cate",
         text: "分类",
       },
       {
-        // iconPath: "resource/hotest.png",
-        // selectedIconPath: "resource/hotest_on.png",
+        iconPath: "./assest/skateboard_start.png",
+        selectedIconPath: "./assest/skateboard.png",
         pagePath: "pages/system/system",
         text: "我的",
       },
