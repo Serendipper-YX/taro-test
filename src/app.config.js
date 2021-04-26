@@ -35,7 +35,7 @@ export default {
     color: "#000",
     selectedColor: "#56abe4",
     backgroundColor: "#fff",
-    borderStyle: "white",
+    borderStyle: "#DDD",
   },
   window: {
     backgroundTextStyle: "light",
