@@ -2,31 +2,35 @@ export default {
   pages: [
     "pages/index/index",
     "pages/home/home",
-    // "pages/nodes/nodes",
-    // "pages/hot/hot",
-    // "pages/node_detail/node_detail",
-    // "pages/thread_detail/thread_detail",
+    "pages/cate/cate",
+    "pages/system/system",
   ],
   tabBar: {
     list: [
       {
         // iconPath: "resource/latest.png",
         // selectedIconPath: "resource/lastest_on.png",
+        pagePath: "pages/home/home",
+        text: "首页",
+      },
+      {
+        // iconPath: "resource/latest.png",
+        // selectedIconPath: "resource/lastest_on.png",
         pagePath: "pages/index/index",
-        text: "最新",
+        text: "随心",
+      },
+      {
+        // iconPath: "resource/latest.png",
+        // selectedIconPath: "resource/lastest_on.png",
+        pagePath: "pages/cate/cate",
+        text: "分类",
       },
       {
         // iconPath: "resource/hotest.png",
         // selectedIconPath: "resource/hotest_on.png",
-        pagePath: "pages/home/home",
-        text: "热门",
+        pagePath: "pages/system/system",
+        text: "我的",
       },
-      // {
-      //   iconPath: "resource/node.png",
-      //   selectedIconPath: "resource/node_on.png",
-      //   pagePath: "pages/nodes/nodes",
-      //   text: "节点",
-      // },
     ],
     color: "#000",
     selectedColor: "#56abe4",
