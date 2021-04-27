@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Image } from "@tarojs/components";
-import { AtCountdown, AtCurtain } from "taro-ui";
+import { AtCountdown, AtCurtain, AtNoticebar } from "taro-ui";
 import jdc from "../../assest/jdc.jd.jpg";
 import curtainPng from "../../assest/curtain.png";
 import "./style.scss";
@@ -12,7 +12,8 @@ const Home = () => {
   };
   return (
     <View className="at-article">
-      <View className="at-article__h1">这是一级标题这是一级标题</View>
+      <View className="at-article__h1">一个偶然的机遇</View>
+      <AtNoticebar marquee>这是通告栏，这是通告栏，这是通告栏</AtNoticebar>
       <View className="at-article__info">
         2021-05-01&nbsp;&nbsp;&nbsp;Author
       </View>
