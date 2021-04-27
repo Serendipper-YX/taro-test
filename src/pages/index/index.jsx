@@ -11,7 +11,6 @@ const index = () => {
   const imgArr = [sanxia, flower, modern, percussion];
   return (
     <View className="index_modal">
-      <View className="index_title">鑫森淼焱垚</View>
       <Swiper
         className="index_swiper"
         indicatorColor="#999"
